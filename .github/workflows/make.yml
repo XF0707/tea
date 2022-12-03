@@ -34,7 +34,8 @@ jobs:
           texlive-fonts-extra \
           texlive \
           texlive-latex-extra \
-          texlive-xetex
+          texlive-xetex \
+          texlive-lang-all
 
         # fonts we need
         apt-get --yes install fonts-noto fonts-noto-cjk
